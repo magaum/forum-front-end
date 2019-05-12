@@ -29,7 +29,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-Nuxt -> framework do vue, vue é um framework e Nuxt é um framework que usa o vue (roubado).
-
-Vuex e localStorage ou sessionStorage (persistir dados na sessionStorage).
