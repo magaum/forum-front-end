@@ -27,10 +27,8 @@ router.afterEach((to, from) => {
   NProgress.done()
 })
 
-//  baseURL: 'https://forum-back-end.herokuapp.com/'
 Vue.prototype.$http = Axios.create({
-
- baseURL: 'http://localhost:8080/'
+  baseURL: 'https://forum-back-end.herokuapp.com/'
 })
 
 new Vue({
